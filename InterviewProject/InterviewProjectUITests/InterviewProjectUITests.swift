@@ -2,7 +2,7 @@
 //  InterviewProjectUITests.swift
 //  InterviewProjectUITests
 //
-//  Created by Kaey on 05/10/17.
+//  Created by Tom on 05/10/17.
 //  Copyright © 2017 TomChakkalackal. All rights reserved.
 //
 
