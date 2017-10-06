@@ -12,12 +12,37 @@
 		16F8644E1F86139D009E9F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F8644C1F86139D009E9F3A /* LaunchScreen.storyboard */; };
 		16F864591F86139D009E9F3A /* InterviewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864581F86139D009E9F3A /* InterviewProjectTests.swift */; };
 		16F864641F86139D009E9F3A /* InterviewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864631F86139D009E9F3A /* InterviewProjectUITests.swift */; };
-		16F864791F863253009E9F3A /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864771F863253009E9F3A /* MessagesViewController.swift */; };
-		16F8647A1F863253009E9F3A /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F864781F863253009E9F3A /* MessagesViewController.xib */; };
-		16F8647E1F8632C7009E9F3A /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8647C1F8632C7009E9F3A /* MessagesTableViewCell.swift */; };
-		16F8647F1F8632C7009E9F3A /* MessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F8647D1F8632C7009E9F3A /* MessagesTableViewCell.xib */; };
-		16F864821F866A5B009E9F3A /* BaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864811F866A5B009E9F3A /* BaseAPIManager.swift */; };
-		16F864841F866BC6009E9F3A /* MessagesAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864831F866BC6009E9F3A /* MessagesAPIManager.swift */; };
+		16F864AC1F86FE0E009E9F3A /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864871F86FE0E009E9F3A /* MessagesTableViewCell.swift */; };
+		16F864AD1F86FE0E009E9F3A /* MessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F864881F86FE0E009E9F3A /* MessagesTableViewCell.xib */; };
+		16F864AE1F86FE0E009E9F3A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8648A1F86FE0E009E9F3A /* BaseViewController.swift */; };
+		16F864AF1F86FE0E009E9F3A /* SlidingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8648B1F86FE0E009E9F3A /* SlidingMenuViewController.swift */; };
+		16F864B01F86FE0E009E9F3A /* SlidingMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F8648C1F86FE0E009E9F3A /* SlidingMenuViewController.xib */; };
+		16F864B11F86FE0E009E9F3A /* GridImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8648E1F86FE0E009E9F3A /* GridImagesViewController.swift */; };
+		16F864B21F86FE0E009E9F3A /* GridImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F8648F1F86FE0E009E9F3A /* GridImagesViewController.xib */; };
+		16F864B31F86FE0E009E9F3A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864901F86FE0E009E9F3A /* HomeViewController.swift */; };
+		16F864B41F86FE0E009E9F3A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F864911F86FE0E009E9F3A /* HomeViewController.xib */; };
+		16F864B51F86FE0E009E9F3A /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864921F86FE0E009E9F3A /* MessagesViewController.swift */; };
+		16F864B61F86FE0E009E9F3A /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F864931F86FE0E009E9F3A /* MessagesViewController.xib */; };
+		16F864B71F86FE0E009E9F3A /* MessagesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864951F86FE0E009E9F3A /* MessagesDataModel.swift */; };
+		16F864B81F86FE0E009E9F3A /* BaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864971F86FE0E009E9F3A /* BaseAPIManager.swift */; };
+		16F864B91F86FE0E009E9F3A /* MessagesAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864981F86FE0E009E9F3A /* MessagesAPIManager.swift */; };
+		16F864BA1F86FE0E009E9F3A /* Proxima Nova Alt Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F8649B1F86FE0E009E9F3A /* Proxima Nova Alt Black.otf */; };
+		16F864BB1F86FE0E009E9F3A /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F8649C1F86FE0E009E9F3A /* Proxima Nova Alt Bold.otf */; };
+		16F864BC1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F8649D1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Black.otf */; };
+		16F864BD1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F8649E1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Bold.otf */; };
+		16F864BE1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F8649F1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Thin.otf */; };
+		16F864BF1F86FE0E009E9F3A /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A01F86FE0E009E9F3A /* Proxima Nova Alt Light.otf */; };
+		16F864C01F86FE0E009E9F3A /* Proxima Nova Alt Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A11F86FE0E009E9F3A /* Proxima Nova Alt Regular.otf */; };
+		16F864C11F86FE0E009E9F3A /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A21F86FE0E009E9F3A /* Proxima Nova Black.otf */; };
+		16F864C21F86FE0E009E9F3A /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A31F86FE0E009E9F3A /* Proxima Nova Bold.otf */; };
+		16F864C31F86FE0E009E9F3A /* Proxima Nova Condensed Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A41F86FE0E009E9F3A /* Proxima Nova Condensed Thin.otf */; };
+		16F864C41F86FE0E009E9F3A /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A51F86FE0E009E9F3A /* Proxima Nova Extrabold.otf */; };
+		16F864C51F86FE0E009E9F3A /* Proxima Nova ScOsf Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A61F86FE0E009E9F3A /* Proxima Nova ScOsf Bold.otf */; };
+		16F864C61F86FE0E009E9F3A /* Proxima Nova ScOsf Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A71F86FE0E009E9F3A /* Proxima Nova ScOsf Light.otf */; };
+		16F864C71F86FE0E009E9F3A /* Proxima Nova ScOsf Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A81F86FE0E009E9F3A /* Proxima Nova ScOsf Regular.otf */; };
+		16F864C81F86FE0E009E9F3A /* Proxima Nova ScOsf Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864A91F86FE0E009E9F3A /* Proxima Nova ScOsf Thin.otf */; };
+		16F864C91F86FE0E009E9F3A /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864AA1F86FE0E009E9F3A /* Proxima Nova Thin.otf */; };
+		16F864CA1F86FE0E009E9F3A /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16F864AB1F86FE0E009E9F3A /* ProximaNova-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +74,37 @@
 		16F8645F1F86139D009E9F3A /* InterviewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F864631F86139D009E9F3A /* InterviewProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewProjectUITests.swift; sourceTree = "<group>"; };
 		16F864651F86139D009E9F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16F864771F863253009E9F3A /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		16F864781F863253009E9F3A /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
-		16F8647C1F8632C7009E9F3A /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
-		16F8647D1F8632C7009E9F3A /* MessagesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesTableViewCell.xib; sourceTree = "<group>"; };
-		16F864811F866A5B009E9F3A /* BaseAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPIManager.swift; sourceTree = "<group>"; };
-		16F864831F866BC6009E9F3A /* MessagesAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesAPIManager.swift; sourceTree = "<group>"; };
+		16F864871F86FE0E009E9F3A /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		16F864881F86FE0E009E9F3A /* MessagesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesTableViewCell.xib; sourceTree = "<group>"; };
+		16F8648A1F86FE0E009E9F3A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		16F8648B1F86FE0E009E9F3A /* SlidingMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingMenuViewController.swift; sourceTree = "<group>"; };
+		16F8648C1F86FE0E009E9F3A /* SlidingMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidingMenuViewController.xib; sourceTree = "<group>"; };
+		16F8648E1F86FE0E009E9F3A /* GridImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridImagesViewController.swift; sourceTree = "<group>"; };
+		16F8648F1F86FE0E009E9F3A /* GridImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridImagesViewController.xib; sourceTree = "<group>"; };
+		16F864901F86FE0E009E9F3A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		16F864911F86FE0E009E9F3A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		16F864921F86FE0E009E9F3A /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		16F864931F86FE0E009E9F3A /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
+		16F864951F86FE0E009E9F3A /* MessagesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesDataModel.swift; sourceTree = "<group>"; };
+		16F864971F86FE0E009E9F3A /* BaseAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPIManager.swift; sourceTree = "<group>"; };
+		16F864981F86FE0E009E9F3A /* MessagesAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesAPIManager.swift; sourceTree = "<group>"; };
+		16F8649B1F86FE0E009E9F3A /* Proxima Nova Alt Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Black.otf"; sourceTree = "<group>"; };
+		16F8649C1F86FE0E009E9F3A /* Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		16F8649D1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Condensed Black.otf"; sourceTree = "<group>"; };
+		16F8649E1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Condensed Bold.otf"; sourceTree = "<group>"; };
+		16F8649F1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Condensed Thin.otf"; sourceTree = "<group>"; };
+		16F864A01F86FE0E009E9F3A /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		16F864A11F86FE0E009E9F3A /* Proxima Nova Alt Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Regular.otf"; sourceTree = "<group>"; };
+		16F864A21F86FE0E009E9F3A /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		16F864A31F86FE0E009E9F3A /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		16F864A41F86FE0E009E9F3A /* Proxima Nova Condensed Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Condensed Thin.otf"; sourceTree = "<group>"; };
+		16F864A51F86FE0E009E9F3A /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		16F864A61F86FE0E009E9F3A /* Proxima Nova ScOsf Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova ScOsf Bold.otf"; sourceTree = "<group>"; };
+		16F864A71F86FE0E009E9F3A /* Proxima Nova ScOsf Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova ScOsf Light.otf"; sourceTree = "<group>"; };
+		16F864A81F86FE0E009E9F3A /* Proxima Nova ScOsf Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova ScOsf Regular.otf"; sourceTree = "<group>"; };
+		16F864A91F86FE0E009E9F3A /* Proxima Nova ScOsf Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova ScOsf Thin.otf"; sourceTree = "<group>"; };
+		16F864AA1F86FE0E009E9F3A /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		16F864AB1F86FE0E009E9F3A /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +155,8 @@
 		16F864421F86139D009E9F3A /* InterviewProject */ = {
 			isa = PBXGroup;
 			children = (
-				16F864751F863253009E9F3A /* Classes */,
+				16F864851F86FE0E009E9F3A /* Classes */,
+				16F864991F86FE0E009E9F3A /* ExternalResources */,
 				16F864431F86139D009E9F3A /* AppDelegate.swift */,
 				16F8644A1F86139D009E9F3A /* Assets.xcassets */,
 				16F8644C1F86139D009E9F3A /* LaunchScreen.storyboard */,
@@ -132,41 +183,97 @@
 			path = InterviewProjectUITests;
 			sourceTree = "<group>";
 		};
-		16F864751F863253009E9F3A /* Classes */ = {
+		16F864851F86FE0E009E9F3A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				16F864801F866A40009E9F3A /* Network */,
-				16F8647B1F86327C009E9F3A /* Cells */,
-				16F864761F863253009E9F3A /* Controllers */,
+				16F864861F86FE0E009E9F3A /* Cells */,
+				16F864891F86FE0E009E9F3A /* Common */,
+				16F8648D1F86FE0E009E9F3A /* Controllers */,
+				16F864941F86FE0E009E9F3A /* DataModels */,
+				16F864961F86FE0E009E9F3A /* Network */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		16F864761F863253009E9F3A /* Controllers */ = {
+		16F864861F86FE0E009E9F3A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				16F864771F863253009E9F3A /* MessagesViewController.swift */,
-				16F864781F863253009E9F3A /* MessagesViewController.xib */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		16F8647B1F86327C009E9F3A /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				16F8647C1F8632C7009E9F3A /* MessagesTableViewCell.swift */,
-				16F8647D1F8632C7009E9F3A /* MessagesTableViewCell.xib */,
+				16F864871F86FE0E009E9F3A /* MessagesTableViewCell.swift */,
+				16F864881F86FE0E009E9F3A /* MessagesTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		16F864801F866A40009E9F3A /* Network */ = {
+		16F864891F86FE0E009E9F3A /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				16F864811F866A5B009E9F3A /* BaseAPIManager.swift */,
-				16F864831F866BC6009E9F3A /* MessagesAPIManager.swift */,
+				16F8648A1F86FE0E009E9F3A /* BaseViewController.swift */,
+				16F8648B1F86FE0E009E9F3A /* SlidingMenuViewController.swift */,
+				16F8648C1F86FE0E009E9F3A /* SlidingMenuViewController.xib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		16F8648D1F86FE0E009E9F3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16F8648E1F86FE0E009E9F3A /* GridImagesViewController.swift */,
+				16F8648F1F86FE0E009E9F3A /* GridImagesViewController.xib */,
+				16F864901F86FE0E009E9F3A /* HomeViewController.swift */,
+				16F864911F86FE0E009E9F3A /* HomeViewController.xib */,
+				16F864921F86FE0E009E9F3A /* MessagesViewController.swift */,
+				16F864931F86FE0E009E9F3A /* MessagesViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		16F864941F86FE0E009E9F3A /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				16F864951F86FE0E009E9F3A /* MessagesDataModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		16F864961F86FE0E009E9F3A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				16F864971F86FE0E009E9F3A /* BaseAPIManager.swift */,
+				16F864981F86FE0E009E9F3A /* MessagesAPIManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		16F864991F86FE0E009E9F3A /* ExternalResources */ = {
+			isa = PBXGroup;
+			children = (
+				16F8649A1F86FE0E009E9F3A /* proxima */,
+			);
+			path = ExternalResources;
+			sourceTree = "<group>";
+		};
+		16F8649A1F86FE0E009E9F3A /* proxima */ = {
+			isa = PBXGroup;
+			children = (
+				16F8649B1F86FE0E009E9F3A /* Proxima Nova Alt Black.otf */,
+				16F8649C1F86FE0E009E9F3A /* Proxima Nova Alt Bold.otf */,
+				16F8649D1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Black.otf */,
+				16F8649E1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Bold.otf */,
+				16F8649F1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Thin.otf */,
+				16F864A01F86FE0E009E9F3A /* Proxima Nova Alt Light.otf */,
+				16F864A11F86FE0E009E9F3A /* Proxima Nova Alt Regular.otf */,
+				16F864A21F86FE0E009E9F3A /* Proxima Nova Black.otf */,
+				16F864A31F86FE0E009E9F3A /* Proxima Nova Bold.otf */,
+				16F864A41F86FE0E009E9F3A /* Proxima Nova Condensed Thin.otf */,
+				16F864A51F86FE0E009E9F3A /* Proxima Nova Extrabold.otf */,
+				16F864A61F86FE0E009E9F3A /* Proxima Nova ScOsf Bold.otf */,
+				16F864A71F86FE0E009E9F3A /* Proxima Nova ScOsf Light.otf */,
+				16F864A81F86FE0E009E9F3A /* Proxima Nova ScOsf Regular.otf */,
+				16F864A91F86FE0E009E9F3A /* Proxima Nova ScOsf Thin.otf */,
+				16F864AA1F86FE0E009E9F3A /* Proxima Nova Thin.otf */,
+				16F864AB1F86FE0E009E9F3A /* ProximaNova-Regular.otf */,
+			);
+			path = proxima;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,10 +383,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16F8647A1F863253009E9F3A /* MessagesViewController.xib in Resources */,
-				16F8647F1F8632C7009E9F3A /* MessagesTableViewCell.xib in Resources */,
+				16F864C51F86FE0E009E9F3A /* Proxima Nova ScOsf Bold.otf in Resources */,
+				16F864C61F86FE0E009E9F3A /* Proxima Nova ScOsf Light.otf in Resources */,
+				16F864B01F86FE0E009E9F3A /* SlidingMenuViewController.xib in Resources */,
+				16F864C91F86FE0E009E9F3A /* Proxima Nova Thin.otf in Resources */,
+				16F864C21F86FE0E009E9F3A /* Proxima Nova Bold.otf in Resources */,
 				16F8644E1F86139D009E9F3A /* LaunchScreen.storyboard in Resources */,
 				16F8644B1F86139D009E9F3A /* Assets.xcassets in Resources */,
+				16F864BF1F86FE0E009E9F3A /* Proxima Nova Alt Light.otf in Resources */,
+				16F864C31F86FE0E009E9F3A /* Proxima Nova Condensed Thin.otf in Resources */,
+				16F864BA1F86FE0E009E9F3A /* Proxima Nova Alt Black.otf in Resources */,
+				16F864C81F86FE0E009E9F3A /* Proxima Nova ScOsf Thin.otf in Resources */,
+				16F864BC1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Black.otf in Resources */,
+				16F864C01F86FE0E009E9F3A /* Proxima Nova Alt Regular.otf in Resources */,
+				16F864C71F86FE0E009E9F3A /* Proxima Nova ScOsf Regular.otf in Resources */,
+				16F864BE1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Thin.otf in Resources */,
+				16F864B61F86FE0E009E9F3A /* MessagesViewController.xib in Resources */,
+				16F864AD1F86FE0E009E9F3A /* MessagesTableViewCell.xib in Resources */,
+				16F864CA1F86FE0E009E9F3A /* ProximaNova-Regular.otf in Resources */,
+				16F864B21F86FE0E009E9F3A /* GridImagesViewController.xib in Resources */,
+				16F864BD1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Bold.otf in Resources */,
+				16F864B41F86FE0E009E9F3A /* HomeViewController.xib in Resources */,
+				16F864BB1F86FE0E009E9F3A /* Proxima Nova Alt Bold.otf in Resources */,
+				16F864C41F86FE0E009E9F3A /* Proxima Nova Extrabold.otf in Resources */,
+				16F864C11F86FE0E009E9F3A /* Proxima Nova Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,11 +431,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16F864791F863253009E9F3A /* MessagesViewController.swift in Sources */,
+				16F864AF1F86FE0E009E9F3A /* SlidingMenuViewController.swift in Sources */,
+				16F864B51F86FE0E009E9F3A /* MessagesViewController.swift in Sources */,
+				16F864B11F86FE0E009E9F3A /* GridImagesViewController.swift in Sources */,
 				16F864441F86139D009E9F3A /* AppDelegate.swift in Sources */,
-				16F8647E1F8632C7009E9F3A /* MessagesTableViewCell.swift in Sources */,
-				16F864841F866BC6009E9F3A /* MessagesAPIManager.swift in Sources */,
-				16F864821F866A5B009E9F3A /* BaseAPIManager.swift in Sources */,
+				16F864AC1F86FE0E009E9F3A /* MessagesTableViewCell.swift in Sources */,
+				16F864B71F86FE0E009E9F3A /* MessagesDataModel.swift in Sources */,
+				16F864AE1F86FE0E009E9F3A /* BaseViewController.swift in Sources */,
+				16F864B81F86FE0E009E9F3A /* BaseAPIManager.swift in Sources */,
+				16F864B91F86FE0E009E9F3A /* MessagesAPIManager.swift in Sources */,
+				16F864B31F86FE0E009E9F3A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

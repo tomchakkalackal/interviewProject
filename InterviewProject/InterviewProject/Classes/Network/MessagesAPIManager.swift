@@ -10,7 +10,9 @@ import Foundation
 
 class MessagesAPIManager: BaseAPIManager {
 	
-	
+    override func parse(response data: Dictionary<String, Any>) -> AnyObject? {
+        return MessagesDataModel(with: data)
+    }
 	
 	
 }

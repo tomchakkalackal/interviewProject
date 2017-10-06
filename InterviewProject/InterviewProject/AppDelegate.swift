@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		self.window = UIWindow(frame: UIScreen.main.bounds)
 		self.window?.backgroundColor = UIColor.white
 		
-		self.window?.rootViewController = UINavigationController(rootViewController: MessagesViewController())
+		self.window?.rootViewController = SlidingMenuViewController(nibName: "SlidingMenuViewController", bundle: nil)
 		self.window?.makeKeyAndVisible()
 		// Override point for customization after application launch.
 		return true
