@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -40,7 +40,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXu-CD-1dY">
-                    <rect key="frame" x="0.0" y="115" width="260" height="45"/>
+                    <rect key="frame" x="0.0" y="110" width="260" height="45"/>
                     <color key="backgroundColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="17"/>
                     <state key="normal" title="Messages">
@@ -51,7 +51,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiI-l9-7Vv">
-                    <rect key="frame" x="0.0" y="170" width="260" height="45"/>
+                    <rect key="frame" x="0.0" y="160" width="260" height="45"/>
                     <color key="backgroundColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="17"/>
                     <state key="normal" title="Image Grid">
@@ -61,20 +61,36 @@
                         <action selector="imageGridTapped:" destination="-1" eventType="touchUpInside" id="1uy-MA-3BC"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCC-Ho-uPp">
+                    <rect key="frame" x="0.0" y="210" width="260" height="45"/>
+                    <color key="backgroundColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="17"/>
+                    <state key="normal" title="Contacts">
+                        <color key="titleColor" red="0.52549019610000003" green="0.090196078430000007" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="contactsTapped:" destination="-1" eventType="touchUpInside" id="RM4-te-mMA"/>
+                    </connections>
+                </button>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.76078431369999999" green="0.72941176470000002" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="oiI-l9-7Vv" firstAttribute="height" secondItem="pUP-j2-TXy" secondAttribute="height" id="2Ri-W3-rdU"/>
                 <constraint firstItem="oiI-l9-7Vv" firstAttribute="leading" secondItem="pUP-j2-TXy" secondAttribute="leading" id="3tb-p2-ShU"/>
-                <constraint firstItem="oiI-l9-7Vv" firstAttribute="top" secondItem="rXu-CD-1dY" secondAttribute="bottom" constant="10" id="A4M-sv-AZI"/>
+                <constraint firstItem="oiI-l9-7Vv" firstAttribute="top" secondItem="rXu-CD-1dY" secondAttribute="bottom" constant="5" id="A4M-sv-AZI"/>
                 <constraint firstItem="rXu-CD-1dY" firstAttribute="leading" secondItem="pUP-j2-TXy" secondAttribute="leading" id="Ah7-Z7-xTg"/>
                 <constraint firstItem="oiI-l9-7Vv" firstAttribute="trailing" secondItem="pUP-j2-TXy" secondAttribute="trailing" id="Ar0-P0-tpH"/>
-                <constraint firstItem="rXu-CD-1dY" firstAttribute="top" secondItem="pUP-j2-TXy" secondAttribute="bottom" constant="10" id="GU4-Yp-6xk"/>
+                <constraint firstItem="QCC-Ho-uPp" firstAttribute="height" secondItem="pUP-j2-TXy" secondAttribute="height" id="FBZ-ED-Bht"/>
+                <constraint firstItem="rXu-CD-1dY" firstAttribute="top" secondItem="pUP-j2-TXy" secondAttribute="bottom" constant="5" id="GU4-Yp-6xk"/>
+                <constraint firstItem="QCC-Ho-uPp" firstAttribute="top" secondItem="oiI-l9-7Vv" secondAttribute="bottom" constant="5" id="Jbp-g5-kuQ"/>
+                <constraint firstItem="QCC-Ho-uPp" firstAttribute="trailing" secondItem="pUP-j2-TXy" secondAttribute="trailing" id="XaC-Fp-cJ9"/>
+                <constraint firstItem="QCC-Ho-uPp" firstAttribute="leading" secondItem="pUP-j2-TXy" secondAttribute="leading" id="YJT-Ld-AdW"/>
                 <constraint firstItem="rXu-CD-1dY" firstAttribute="height" secondItem="pUP-j2-TXy" secondAttribute="height" id="aTT-0d-wjj"/>
                 <constraint firstItem="rXu-CD-1dY" firstAttribute="trailing" secondItem="pUP-j2-TXy" secondAttribute="trailing" id="hOo-3m-g6T"/>
                 <constraint firstItem="pUP-j2-TXy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="if8-fK-Oad"/>
                 <constraint firstItem="pUP-j2-TXy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="oCK-i0-BDy"/>
             </constraints>
+            <point key="canvasLocation" x="-42" y="55"/>
         </view>
     </objects>
 </document>

@@ -12,6 +12,7 @@ enum SlidingMenuItems {
     case home
     case messages
     case imageGrid
+	case contacts
 }
 
 class SlidingMenuViewController: UIViewController {
@@ -53,17 +54,21 @@ class SlidingMenuViewController: UIViewController {
             dismissSlideMenu()
             return
         }
-        rootNavigationController.popViewController(animated: false)
+		selectedMenu = item
+        rootNavigationController.popToRootViewController(animated: false)
         
         var selectedMenuController = UIViewController()
         
         switch item {
         case .home:
-            selectedMenuController = HomeViewController(nibName: "HomeViewController", bundle: nil)
+			dismissSlideMenu()
+            return
         case .messages:
             selectedMenuController = MessagesViewController(nibName: "MessagesViewController", bundle: nil)
         case .imageGrid:
             selectedMenuController = GridImagesViewController(nibName: "GridImagesViewController", bundle: nil)
+		case .contacts:
+			selectedMenuController = ContactsViewController(nibName: "ContactsViewController", bundle: nil)
         }
         
         rootNavigationController.pushViewController(selectedMenuController, animated: false)
@@ -93,4 +98,8 @@ class SlidingMenuViewController: UIViewController {
     @IBAction func imageGridTapped(_ sender: Any) {
         show(menu: .imageGrid)
     }
+	
+	@IBAction func contactsTapped(_ sender: Any) {
+		show(menu: .contacts)
+	}
 }

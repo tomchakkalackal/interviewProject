@@ -15,9 +15,10 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+		self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+		navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     }
-    
+	
     func addSideMenuNavigationButton() {
         self.navigationItem.hidesBackButton = true
         
@@ -26,6 +27,14 @@ class BaseViewController: UIViewController {
         hamburgerButton.tintColor = UIColor.white
         self.navigationItem.leftBarButtonItem = hamburgerButton
     }
+	
+	func setNavigationBar(with title: String) {
+		self.navigationController?.visibleViewController?.navigationItem.title = title
+	}
+	
+	func setBarTint(with color: UIColor) {
+		self.navigationController?.navigationBar.barTintColor = color
+	}
 
     func toggleSideMenu() {
         if self.isSideMenuOpen() {

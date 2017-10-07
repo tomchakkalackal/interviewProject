@@ -9,14 +9,62 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "InterviewProject/Classes/Network/BaseAPIManager.swift"
-            timestampString = "528902893.92066"
+            filePath = "InterviewProject/Classes/Controllers/FullScreenImageViewController.swift"
+            timestampString = "528992358.24768"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "fetchData(success:failure:)"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "scrollViewWillEndDragging(_:withVelocity:targetContentOffset:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InterviewProject/Classes/Controllers/MessagesViewController.swift"
+            timestampString = "529051546.660761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "imageTapped(gestureRecognizier:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InterviewProject.MessagesViewController.imageTapped (gestureRecognizier : __ObjC.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "InterviewProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaey/Documents/GitHub/interviewProject/InterviewProject/InterviewProject/Classes/Controllers/MessagesViewController.swift"
+                  timestampString = "529066911.861097"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "230">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InterviewProject.MessagesViewController.imageTapped (gestureRecognizier : __ObjC.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "InterviewProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaey/Documents/GitHub/interviewProject/InterviewProject/InterviewProject/Classes/Controllers/MessagesViewController.swift"
+                  timestampString = "529066911.863887"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "257">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

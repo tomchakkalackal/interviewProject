@@ -45,7 +45,9 @@ class BaseAPIManager {
         })
         task.resume()
     }
-    
+	
+	//MARK:- Abstract method to parse the JSON Response - Should be overriden in the child
+	
     func parse(response data: Dictionary<String, Any>) -> AnyObject? {
         print("parse(response: Dictionary)' method should be overriden")
         return nil

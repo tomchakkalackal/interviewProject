@@ -9,9 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GridImagesViewController" customModule="InterviewProject" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FullScreenImageViewController" customModule="InterviewProject" customModuleProvider="target">
             <connections>
-                <outlet property="collectionView" destination="mUC-PF-6B9" id="9jN-82-jKN"/>
+                <outlet property="collectionView" destination="5A2-2b-I6E" id="QdE-0N-vJJ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,28 +20,29 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="mUC-PF-6B9">
-                    <rect key="frame" x="0.0" y="10" width="375" height="657"/>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="5A2-2b-I6E">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HBU-Q6-Oba">
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TWP-2z-kxR">
                         <size key="itemSize" width="50" height="50"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                     </collectionViewFlowLayout>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="Udc-ZX-zT4"/>
-                        <outlet property="delegate" destination="-1" id="p6e-X4-Kz9"/>
+                        <outlet property="dataSource" destination="-1" id="ump-gd-3uM"/>
+                        <outlet property="delegate" destination="-1" id="s7f-lO-k2f"/>
                     </connections>
                 </collectionView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="mUC-PF-6B9" secondAttribute="bottom" id="ULp-J2-8ik"/>
-                <constraint firstAttribute="trailing" secondItem="mUC-PF-6B9" secondAttribute="trailing" id="UTx-o2-yZ8"/>
-                <constraint firstItem="mUC-PF-6B9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iqo-1s-0LV"/>
-                <constraint firstItem="mUC-PF-6B9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="nsC-8T-GWh"/>
+                <constraint firstItem="5A2-2b-I6E" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="6Rb-Zo-jF9"/>
+                <constraint firstAttribute="bottom" secondItem="5A2-2b-I6E" secondAttribute="bottom" id="Bvc-1e-bkP"/>
+                <constraint firstItem="5A2-2b-I6E" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gOa-lE-kIs"/>
+                <constraint firstAttribute="trailing" secondItem="5A2-2b-I6E" secondAttribute="trailing" id="sBC-88-Roy"/>
             </constraints>
+            <point key="canvasLocation" x="-320" y="81"/>
         </view>
     </objects>
 </document>

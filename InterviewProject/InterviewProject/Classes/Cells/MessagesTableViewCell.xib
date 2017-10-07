@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -30,31 +30,31 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="459.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6k-bg-6qy">
-                        <rect key="frame" x="7" y="10" width="0.0" height="337.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6k-bg-6qy">
+                        <rect key="frame" x="7" y="10" width="0.0" height="37.5"/>
                         <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="16"/>
                         <color key="textColor" red="0.22352941176470587" green="0.22352941176470587" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOD-1c-gWd">
-                        <rect key="frame" x="12" y="347" width="0.0" height="0.0"/>
+                        <rect key="frame" x="12" y="10" width="298" height="0.0"/>
                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
                         <color key="textColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="999" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7y-a1-FbV">
-                        <rect key="frame" x="2" y="357.5" width="293" height="37"/>
+                        <rect key="frame" x="2" y="57.5" width="293" height="37"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="textColor" red="0.41960784313725491" green="0.41960784313725491" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="17"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                     </textView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="De9-mb-SIi">
-                        <rect key="frame" x="160" y="404.5" width="0.0" height="0.0"/>
+                    <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="De9-mb-SIi">
+                        <rect key="frame" x="65" y="104.5" width="190" height="300"/>
                         <constraints>
-                            <constraint firstAttribute="width" secondItem="De9-mb-SIi" secondAttribute="height" multiplier="188:300" priority="999" id="5ly-ZQ-wUn"/>
-                            <constraint firstAttribute="height" priority="666" id="TX5-rp-Fth"/>
+                            <constraint firstAttribute="width" constant="190" id="5wj-7S-czQ"/>
+                            <constraint firstAttribute="height" priority="999" constant="300" id="TX5-rp-Fth"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRM-7Y-ijW">
@@ -86,11 +86,12 @@
                     <constraint firstItem="g6k-bg-6qy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="Hya-Ty-gNG"/>
                     <constraint firstItem="m86-Li-WJv" firstAttribute="centerY" secondItem="lRM-7Y-ijW" secondAttribute="centerY" id="MBv-ed-EC8"/>
                     <constraint firstItem="C7y-a1-FbV" firstAttribute="leading" secondItem="g6k-bg-6qy" secondAttribute="leading" constant="-5" id="ORe-dS-wU0"/>
-                    <constraint firstItem="hOD-1c-gWd" firstAttribute="baseline" secondItem="g6k-bg-6qy" secondAttribute="baseline" id="POZ-se-Xyg"/>
                     <constraint firstItem="C7y-a1-FbV" firstAttribute="top" secondItem="g6k-bg-6qy" secondAttribute="bottom" constant="10" id="SEY-7Z-B0a"/>
                     <constraint firstAttribute="trailing" secondItem="C7y-a1-FbV" secondAttribute="trailing" constant="25" id="Shg-UE-Rcz"/>
+                    <constraint firstItem="hOD-1c-gWd" firstAttribute="top" secondItem="g6k-bg-6qy" secondAttribute="top" id="WIv-fX-mpE"/>
                     <constraint firstAttribute="bottom" secondItem="6GB-4k-Zep" secondAttribute="bottom" constant="5" id="Wuw-p5-et8"/>
                     <constraint firstAttribute="trailing" secondItem="m86-Li-WJv" secondAttribute="trailing" constant="15" id="cAA-5l-dke"/>
+                    <constraint firstAttribute="trailing" secondItem="hOD-1c-gWd" secondAttribute="trailing" constant="10" id="cLw-5G-fKW"/>
                     <constraint firstItem="6GB-4k-Zep" firstAttribute="top" secondItem="De9-mb-SIi" secondAttribute="bottom" constant="10" id="dxF-q8-7FW"/>
                     <constraint firstItem="lRM-7Y-ijW" firstAttribute="leading" secondItem="g6k-bg-6qy" secondAttribute="leading" id="gxm-2f-efd"/>
                     <constraint firstItem="hOD-1c-gWd" firstAttribute="leading" secondItem="g6k-bg-6qy" secondAttribute="trailing" constant="5" id="hL4-rA-7Kh"/>
@@ -102,6 +103,7 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="dateLabel" destination="lRM-7Y-ijW" id="S55-UE-zbc"/>
+                <outlet property="imageViewHeight" destination="TX5-rp-Fth" id="C7T-OD-05Y"/>
                 <outlet property="imageViewTop" destination="lUS-Qd-15L" id="UNZ-Zi-oid"/>
                 <outlet property="messageImageView" destination="De9-mb-SIi" id="1O0-oS-k8c"/>
                 <outlet property="nameLabel" destination="g6k-bg-6qy" id="yjH-z6-nMc"/>
@@ -110,7 +112,7 @@
                 <outlet property="socialType" destination="m86-Li-WJv" id="LJm-oW-Bek"/>
                 <outlet property="tweetTextView" destination="C7y-a1-FbV" id="LS7-9k-4aK"/>
             </connections>
-            <point key="canvasLocation" x="87" y="5"/>
+            <point key="canvasLocation" x="-37" y="-332"/>
         </tableViewCell>
     </objects>
     <resources>
