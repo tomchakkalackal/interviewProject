@@ -18,24 +18,31 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="iL2-DR-QHY">
-                        <rect key="frame" x="0.0" y="5" width="320" height="33.5"/>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="iL2-DR-QHY">
+                        <rect key="frame" x="5" y="5" width="315" height="33.5"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LTo-Qg-QWP">
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LTo-Qg-QWP">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="-1" id="16v-K7-fKZ"/>
+                            <outlet property="delegate" destination="-1" id="ygF-2t-OPx"/>
+                        </connections>
                     </collectionView>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="iL2-DR-QHY" secondAttribute="bottom" constant="5" id="31J-mI-AYk"/>
                     <constraint firstAttribute="trailing" secondItem="iL2-DR-QHY" secondAttribute="trailing" id="6cL-yy-m1J"/>
-                    <constraint firstItem="iL2-DR-QHY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Wq3-gn-leD"/>
+                    <constraint firstItem="iL2-DR-QHY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Wq3-gn-leD"/>
                     <constraint firstItem="iL2-DR-QHY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="XiA-5H-fXO"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionView" destination="iL2-DR-QHY" id="bJk-Bq-bGP"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>

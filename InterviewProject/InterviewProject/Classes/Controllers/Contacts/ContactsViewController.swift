@@ -14,7 +14,7 @@ let emergencyCellIdentifier = "EmergencyCell"
 let contactCellNIbName = "ContactTableViewCell"
 let contactCellIdentifier = "ContactCell"
 
-let contactsBarTintColor = UIColor(red: 28/255, green: 28/255, blue: 28/255, alpha: 1)
+let navigationBarTintColor = UIColor(red: 28/255, green: 28/255, blue: 28/255, alpha: 1)
 
 class ContactsViewController: BaseViewController {
 	
@@ -26,14 +26,17 @@ class ContactsViewController: BaseViewController {
         super.viewDidLoad()
 
 		addSideMenuNavigationButton()
-		setBarTint(with: contactsBarTintColor)
+		setBarTint(with: navigationBarTintColor)
 		setNavigationBar(with: "All Contacts")
 		
-		self.automaticallyAdjustsScrollViewInsets = false
 		registerNibs()
 		
 		getContacts()
     }
+	
+	override func viewWillAppear(_ animated: Bool) {
+		reload()
+	}
 	
 	//MARK:- CollectionView Helpers
 	
@@ -78,6 +81,8 @@ class ContactsViewController: BaseViewController {
 	}
 }
 
+//MARK:- UITableViewDataSource
+
 extension ContactsViewController: UITableViewDataSource {
 	
 	func numberOfSections(in tableView: UITableView) -> Int {
@@ -99,6 +104,9 @@ extension ContactsViewController: UITableViewDataSource {
 		if indexPath.section == 0 {
 			let cell = tableView.dequeueReusableCell(withIdentifier: emergencyCellIdentifier, for: indexPath) as? EmergencyContactTableViewCell
 			
+			cell?.delegate = self
+			cell?.emergencyContacts = EmergencyContactsManager.shared.fetch(from: contacts)
+			cell?.setupCollectionView()
 			return cell!
 		} else {
 			let cell = tableView.dequeueReusableCell(withIdentifier: contactCellIdentifier, for: indexPath) as? ContactTableViewCell
@@ -116,6 +124,8 @@ extension ContactsViewController: UITableViewDataSource {
 		return 60.0
 	}
 }
+
+//MARK:- UITableViewDelegate
 
 extension ContactsViewController: UITableViewDelegate {
 	
@@ -135,6 +145,8 @@ extension ContactsViewController: UITableViewDelegate {
 	}
 }
 
+//MARK:- CallDelegate
+
 extension ContactsViewController: CallDelegate {
 	
 	//Couldn't test this function as I was debugging on a simulator.
@@ -145,5 +157,16 @@ extension ContactsViewController: CallDelegate {
 			return
 		}
 		UIApplication.shared.open(phoneNumber)
+	}
+}
+
+//MARK:- AddEmergencyContact
+
+extension ContactsViewController: AddEmergencyContact {
+	func add() {
+		let emergencyContactViewController = EmergencyContactViewController(nibName: "EmergencyContactViewController", bundle: nil)
+		
+		emergencyContactViewController.contacts = contacts
+		navigationController?.pushViewController(emergencyContactViewController, animated: false)
 	}
 }

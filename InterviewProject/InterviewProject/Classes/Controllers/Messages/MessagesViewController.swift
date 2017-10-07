@@ -20,8 +20,7 @@ let messageCellIdentifier = "MessageCellIdentifier"
 class MessagesViewController: BaseViewController {
 	
 	let barTintColor = UIColor(red: 227/255, green: 138/255, blue: 36/225, alpha: 1)
-	var apiURL = "http://sbut-app.testground.me/api/messages/?page=4"
-	//"https://private-71386-getmessagestest.apiary-mock.com/get_messages"
+	var apiURL = "https://private-71386-getmessagestest.apiary-mock.com/get_messages"
 	var isPaginating = false
 	
 	var messageModel: MessagesDataModel?
@@ -136,7 +135,7 @@ class MessagesViewController: BaseViewController {
 	//MARK:- Pagination
 	
 	fileprivate func paginate() {
-		if !isPaginating {
+		if !isPaginating && segmentedControl.selectedSegmentIndex == 0 {
 			isPaginating = true
 			guard let nextURL = messageModel?.nextPageURL else {
 				return

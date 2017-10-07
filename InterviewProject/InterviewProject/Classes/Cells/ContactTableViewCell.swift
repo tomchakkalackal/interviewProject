@@ -13,6 +13,10 @@ protocol CallDelegate: class {
 	func call(to number: CNPhoneNumber?)
 }
 
+protocol EmergencyContactDelegate: class {
+	func update(_ contact: CNContact?)
+}
+
 class ContactTableViewCell: UITableViewCell {
 	
 	@IBOutlet weak var userName: UILabel!
@@ -20,8 +24,10 @@ class ContactTableViewCell: UITableViewCell {
 	@IBOutlet weak var rightButton: UIButton!
 	
 	var contact: CNContact?
+	var isEmergencyController = false
 	
 	weak var callDelegate: CallDelegate?
+	weak var updateContactDelegate: EmergencyContactDelegate?
 	
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -34,10 +40,23 @@ class ContactTableViewCell: UITableViewCell {
 		if let data = contact.imageData {
 			userImageView.image = UIImage(data: data)
 		}
-		userName.text = contact.givenName + contact.familyName
+		userName.text = contact.givenName + " " + contact.familyName
+	}
+	
+	func setCellForEmergencyContact(with contact: CNContact) {
+		if EmergencyContactsManager.shared.isEmergencyContact(contact) {
+			rightButton.setBackgroundImage(UIImage(named: "removeContact"), for: .normal)
+		} else {
+			rightButton.setBackgroundImage(UIImage(named: "addContact"), for: .normal)
+		}
+		setupView(with: contact)
 	}
 	
 	@IBAction func tappedRightButton(_ sender: Any) {
-		callDelegate?.call(to: contact?.phoneNumbers[0].value)
+		if isEmergencyController {
+			updateContactDelegate?.update(contact)
+		} else {
+			callDelegate?.call(to: contact?.phoneNumbers[0].value)
+		}
 	}
 }

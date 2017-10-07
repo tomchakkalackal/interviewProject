@@ -24,38 +24,52 @@
                 <rect key="frame" x="0.0" y="0.0" width="69" height="122"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HAc-aF-X4a">
-                        <rect key="frame" x="0.0" y="0.0" width="69" height="69"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dcO-JJ-aFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="69" height="122"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HAc-aF-X4a">
+                                <rect key="frame" x="4.5" y="0.0" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.66274509800000003" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="2gf-i9-oa7"/>
+                                    <constraint firstAttribute="width" secondItem="HAc-aF-X4a" secondAttribute="height" multiplier="1:1" id="ozr-DR-N6O"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJg-hK-FNt">
+                                <rect key="frame" x="3" y="68" width="63" height="0.0"/>
+                                <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="width" secondItem="HAc-aF-X4a" secondAttribute="height" multiplier="1:1" id="ozr-DR-N6O"/>
+                            <constraint firstAttribute="trailing" secondItem="xJg-hK-FNt" secondAttribute="trailing" constant="3" id="NmP-On-tUV"/>
+                            <constraint firstItem="HAc-aF-X4a" firstAttribute="top" secondItem="dcO-JJ-aFJ" secondAttribute="top" id="Nv0-WB-gJW"/>
+                            <constraint firstItem="xJg-hK-FNt" firstAttribute="top" secondItem="HAc-aF-X4a" secondAttribute="bottom" constant="8" id="QsQ-of-Q2L"/>
+                            <constraint firstItem="HAc-aF-X4a" firstAttribute="centerX" secondItem="dcO-JJ-aFJ" secondAttribute="centerX" id="gbp-80-Sev"/>
+                            <constraint firstItem="xJg-hK-FNt" firstAttribute="leading" secondItem="dcO-JJ-aFJ" secondAttribute="leading" constant="3" id="mos-Sv-CdA"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                <integer key="value" value="30"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJg-hK-FNt">
-                        <rect key="frame" x="2" y="74" width="65" height="16"/>
-                        <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="13"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    </view>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="xJg-hK-FNt" secondAttribute="trailing" constant="2" id="2JC-Pb-nEj"/>
-                <constraint firstItem="HAc-aF-X4a" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="AJj-IU-MII"/>
-                <constraint firstAttribute="trailing" secondItem="HAc-aF-X4a" secondAttribute="trailing" id="Tzl-rF-FZz"/>
-                <constraint firstItem="xJg-hK-FNt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="V0j-kr-x7L"/>
-                <constraint firstItem="HAc-aF-X4a" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VkV-uf-mgi"/>
-                <constraint firstItem="xJg-hK-FNt" firstAttribute="top" secondItem="HAc-aF-X4a" secondAttribute="bottom" constant="5" id="dmK-ZL-3dH"/>
+                <constraint firstAttribute="trailing" secondItem="dcO-JJ-aFJ" secondAttribute="trailing" id="E4c-Vp-Pq6"/>
+                <constraint firstItem="dcO-JJ-aFJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Kaa-T0-g6S"/>
+                <constraint firstItem="dcO-JJ-aFJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VG5-PA-8OM"/>
+                <constraint firstAttribute="bottom" secondItem="dcO-JJ-aFJ" secondAttribute="bottom" id="lcu-nB-mxR"/>
             </constraints>
             <size key="customSize" width="69" height="122"/>
             <connections>
                 <outlet property="contactImage" destination="HAc-aF-X4a" id="FXW-l2-P9V"/>
+                <outlet property="contactLabel" destination="xJg-hK-FNt" id="8xY-cT-9Vb"/>
             </connections>
-            <point key="canvasLocation" x="43.5" y="90"/>
+            <point key="canvasLocation" x="-95.5" y="57"/>
         </collectionViewCell>
     </objects>
 </document>

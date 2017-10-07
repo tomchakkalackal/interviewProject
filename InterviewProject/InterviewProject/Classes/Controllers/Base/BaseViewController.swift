@@ -17,6 +17,7 @@ class BaseViewController: UIViewController {
         
 		self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
 		navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+		self.automaticallyAdjustsScrollViewInsets = false
     }
 	
     func addSideMenuNavigationButton() {

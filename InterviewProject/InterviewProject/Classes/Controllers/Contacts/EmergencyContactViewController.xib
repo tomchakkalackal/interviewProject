@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ProximaNova-Regular.otf">
+            <string>ProximaNova-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmergencyContactViewController" customModule="InterviewProject" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="Rda-F1-eCY" id="MOt-tR-JnH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Rda-F1-eCY">
+                    <rect key="frame" x="0.0" y="208" width="375" height="459"/>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="JvM-xW-d3b"/>
+                        <outlet property="delegate" destination="-1" id="Hq8-u3-2uo"/>
+                    </connections>
+                </tableView>
+                <searchBar contentMode="redraw" placeholder="Search your contact" translatesAutoresizingMaskIntoConstraints="NO" id="xHJ-6j-u2T">
+                    <rect key="frame" x="0.0" y="164" width="375" height="44"/>
+                    <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This person should be the one who is most reliable and knows you well" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4Z-ie-IhO">
+                    <rect key="frame" x="0.0" y="84" width="375" height="60"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="rh4-I3-EdZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="13"/>
+                    <color key="textColor" red="0.66274509803921566" green="0.66274509803921566" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="n4Z-ie-IhO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ID7-KS-ncg"/>
+                <constraint firstItem="xHJ-6j-u2T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="J06-Yu-KgA"/>
+                <constraint firstAttribute="trailing" secondItem="Rda-F1-eCY" secondAttribute="trailing" id="O0I-JB-0KX"/>
+                <constraint firstAttribute="bottom" secondItem="Rda-F1-eCY" secondAttribute="bottom" id="S93-UJ-t8l"/>
+                <constraint firstAttribute="trailing" secondItem="n4Z-ie-IhO" secondAttribute="trailing" id="VSu-Rd-yue"/>
+                <constraint firstItem="Rda-F1-eCY" firstAttribute="top" secondItem="xHJ-6j-u2T" secondAttribute="bottom" id="bzg-dh-s4U"/>
+                <constraint firstAttribute="trailing" secondItem="xHJ-6j-u2T" secondAttribute="trailing" id="dLz-9M-9vs"/>
+                <constraint firstItem="xHJ-6j-u2T" firstAttribute="top" secondItem="n4Z-ie-IhO" secondAttribute="bottom" constant="20" id="hg3-FY-vcf"/>
+                <constraint firstItem="Rda-F1-eCY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pMG-hP-lg0"/>
+                <constraint firstItem="n4Z-ie-IhO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="ycO-mw-yji"/>
+            </constraints>
+            <point key="canvasLocation" x="233" y="79"/>
+        </view>
+    </objects>
+</document>

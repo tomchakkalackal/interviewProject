@@ -33,38 +33,38 @@
             endingLineNumber = "160"
             landmarkName = "imageTapped(gestureRecognizier:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "InterviewProject.MessagesViewController.imageTapped (gestureRecognizier : __ObjC.UITapGestureRecognizer) -&gt; ()"
-                  moduleName = "InterviewProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kaey/Documents/GitHub/interviewProject/InterviewProject/InterviewProject/Classes/Controllers/MessagesViewController.swift"
-                  timestampString = "529066911.861097"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "160"
-                  endingLineNumber = "160"
-                  offsetFromSymbolStart = "230">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "InterviewProject.MessagesViewController.imageTapped (gestureRecognizier : __ObjC.UITapGestureRecognizer) -&gt; ()"
-                  moduleName = "InterviewProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kaey/Documents/GitHub/interviewProject/InterviewProject/InterviewProject/Classes/Controllers/MessagesViewController.swift"
-                  timestampString = "529066911.863887"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "160"
-                  endingLineNumber = "160"
-                  offsetFromSymbolStart = "257">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InterviewProject/Classes/Controllers/Contacts/EmergencyContactViewController.swift"
+            timestampString = "529080377.265938"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "update(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InterviewProject/Classes/Cells/EmergencyContactCollectionViewCell.swift"
+            timestampString = "529081432.704943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "setupCell(with:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

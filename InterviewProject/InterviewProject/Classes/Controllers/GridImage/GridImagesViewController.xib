@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="mUC-PF-6B9">
-                    <rect key="frame" x="0.0" y="10" width="375" height="657"/>
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HBU-Q6-Oba">
                         <size key="itemSize" width="50" height="50"/>
@@ -40,7 +40,7 @@
                 <constraint firstAttribute="bottom" secondItem="mUC-PF-6B9" secondAttribute="bottom" id="ULp-J2-8ik"/>
                 <constraint firstAttribute="trailing" secondItem="mUC-PF-6B9" secondAttribute="trailing" id="UTx-o2-yZ8"/>
                 <constraint firstItem="mUC-PF-6B9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iqo-1s-0LV"/>
-                <constraint firstItem="mUC-PF-6B9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="nsC-8T-GWh"/>
+                <constraint firstItem="mUC-PF-6B9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="nsC-8T-GWh"/>
             </constraints>
         </view>
     </objects>

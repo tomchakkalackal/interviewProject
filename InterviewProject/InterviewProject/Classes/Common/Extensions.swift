@@ -78,6 +78,7 @@ extension UIView {
 		                                      toItem: self, attribute: .centerX, multiplier: 1, constant: 0))
 		self.addConstraint(NSLayoutConstraint(item: containerView, attribute: .width, relatedBy: .equal,
 		                                      toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 211.0))
+		
 		//constraints to hold label inside the container view.
 		containerView.addConstraint(NSLayoutConstraint(item: toastLabel, attribute: .bottom, relatedBy: .equal, toItem: containerView, attribute: .bottom, multiplier: 1, constant: -10))
 		containerView.addConstraint(NSLayoutConstraint(item: toastLabel, attribute: .top, relatedBy: .equal, toItem: containerView, attribute: .top, multiplier: 1, constant: 10))

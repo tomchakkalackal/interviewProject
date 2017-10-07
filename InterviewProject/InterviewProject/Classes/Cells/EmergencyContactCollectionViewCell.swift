@@ -7,17 +7,24 @@
 //
 
 import UIKit
+import Contacts
 
 class EmergencyContactCollectionViewCell: UICollectionViewCell {
 	
 	@IBOutlet weak var contactImage: UIImageView!
+	@IBOutlet weak var contactLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-	func setupCell(with data: String) {
+	func setupCell(with contact: CNContact) {
 		
+		contactImage.image = nil
+		if let data = contact.imageData {
+			contactImage.image = UIImage(data: data)
+		}
+		contactLabel.text = contact.givenName + " " + contact.familyName
 	}
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FullScreenImageViewController: UIViewController {
+class FullScreenImageViewController: BaseViewController {
 
 	@IBOutlet weak var collectionView: UICollectionView!
 	
@@ -21,14 +21,13 @@ class FullScreenImageViewController: UIViewController {
 
 		registerNibs()
 		currentCellIndex = CGFloat(selectedIndexPath!.item)
-		
+		//self.automaticallyAdjustsScrollViewInsets = false
     }
 
 	override func viewDidLayoutSubviews() {
 		super.viewDidLayoutSubviews()
 		
 		collectionView.collectionViewLayout = collectionViewFlowLayout()
-		//_ = collectionView.collectionViewLayout.collectionViewContentSize
 		collectionViewInitialSetUp()
 	}
 	
@@ -48,8 +47,6 @@ class FullScreenImageViewController: UIViewController {
 	
 	private func collectionViewInitialSetUp() {
 		collectionView.scrollToItem(at: selectedIndexPath!, at: .centeredHorizontally, animated: false)
-		collectionView.contentOffset = CGPoint(x: currentCellIndex * collectionView.frame.width, y: 0)
-//		collectionView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
 	}
 	
 	private func registerNibs() {

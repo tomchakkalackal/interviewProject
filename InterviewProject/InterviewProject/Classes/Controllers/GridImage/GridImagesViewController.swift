@@ -28,6 +28,7 @@ class GridImagesViewController: BaseViewController {
 
 		NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
 
+		setBarTint(with: navigationBarTintColor)
 		addSideMenuNavigationButton()
 		setupCollectionView()
 		addGesture()

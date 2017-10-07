@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16B22E051F88932D00EEDAED /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E031F88932D00EEDAED /* ContactsViewController.swift */; };
-		16B22E061F88932D00EEDAED /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E041F88932D00EEDAED /* ContactsViewController.xib */; };
 		16B22E091F88956D00EEDAED /* EmergencyContactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E071F88956D00EEDAED /* EmergencyContactCollectionViewCell.swift */; };
 		16B22E0A1F88956D00EEDAED /* EmergencyContactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E081F88956D00EEDAED /* EmergencyContactCollectionViewCell.xib */; };
 		16B22E0D1F889F4B00EEDAED /* ImagePopOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E0C1F889F4B00EEDAED /* ImagePopOutView.swift */; };
@@ -19,6 +17,22 @@
 		16B22E171F88CEB100EEDAED /* ContactsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E161F88CEB100EEDAED /* ContactsHeaderView.xib */; };
 		16B22E1C1F88D36C00EEDAED /* EmergencyContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E1A1F88D36C00EEDAED /* EmergencyContactTableViewCell.swift */; };
 		16B22E1D1F88D36C00EEDAED /* EmergencyContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E1B1F88D36C00EEDAED /* EmergencyContactTableViewCell.xib */; };
+		16B22E371F88F76F00EEDAED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E231F88F76F00EEDAED /* BaseViewController.swift */; };
+		16B22E381F88F76F00EEDAED /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E251F88F76F00EEDAED /* ContactsViewController.swift */; };
+		16B22E391F88F76F00EEDAED /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E261F88F76F00EEDAED /* ContactsViewController.xib */; };
+		16B22E3A1F88F76F00EEDAED /* EmergencyContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E271F88F76F00EEDAED /* EmergencyContactViewController.swift */; };
+		16B22E3B1F88F76F00EEDAED /* EmergencyContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E281F88F76F00EEDAED /* EmergencyContactViewController.xib */; };
+		16B22E3C1F88F76F00EEDAED /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E2A1F88F76F00EEDAED /* FullScreenImageViewController.swift */; };
+		16B22E3D1F88F76F00EEDAED /* FullScreenImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E2B1F88F76F00EEDAED /* FullScreenImageViewController.xib */; };
+		16B22E3E1F88F76F00EEDAED /* GridImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E2C1F88F76F00EEDAED /* GridImagesViewController.swift */; };
+		16B22E3F1F88F76F00EEDAED /* GridImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E2D1F88F76F00EEDAED /* GridImagesViewController.xib */; };
+		16B22E401F88F76F00EEDAED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E2F1F88F76F00EEDAED /* HomeViewController.swift */; };
+		16B22E411F88F76F00EEDAED /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E301F88F76F00EEDAED /* HomeViewController.xib */; };
+		16B22E421F88F76F00EEDAED /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E321F88F76F00EEDAED /* MessagesViewController.swift */; };
+		16B22E431F88F76F00EEDAED /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E331F88F76F00EEDAED /* MessagesViewController.xib */; };
+		16B22E441F88F76F00EEDAED /* SlidingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E351F88F76F00EEDAED /* SlidingMenuViewController.swift */; };
+		16B22E451F88F76F00EEDAED /* SlidingMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B22E361F88F76F00EEDAED /* SlidingMenuViewController.xib */; };
+		16B22E471F88F92800EEDAED /* EmergencyContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B22E461F88F92800EEDAED /* EmergencyContactsManager.swift */; };
 		16F864441F86139D009E9F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864431F86139D009E9F3A /* AppDelegate.swift */; };
 		16F8644B1F86139D009E9F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F8644A1F86139D009E9F3A /* Assets.xcassets */; };
 		16F8644E1F86139D009E9F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F8644C1F86139D009E9F3A /* LaunchScreen.storyboard */; };
@@ -26,15 +40,6 @@
 		16F864641F86139D009E9F3A /* InterviewProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864631F86139D009E9F3A /* InterviewProjectUITests.swift */; };
 		16F864AC1F86FE0E009E9F3A /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864871F86FE0E009E9F3A /* MessagesTableViewCell.swift */; };
 		16F864AD1F86FE0E009E9F3A /* MessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F864881F86FE0E009E9F3A /* MessagesTableViewCell.xib */; };
-		16F864AE1F86FE0E009E9F3A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8648A1F86FE0E009E9F3A /* BaseViewController.swift */; };
-		16F864AF1F86FE0E009E9F3A /* SlidingMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8648B1F86FE0E009E9F3A /* SlidingMenuViewController.swift */; };
-		16F864B01F86FE0E009E9F3A /* SlidingMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F8648C1F86FE0E009E9F3A /* SlidingMenuViewController.xib */; };
-		16F864B11F86FE0E009E9F3A /* GridImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8648E1F86FE0E009E9F3A /* GridImagesViewController.swift */; };
-		16F864B21F86FE0E009E9F3A /* GridImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F8648F1F86FE0E009E9F3A /* GridImagesViewController.xib */; };
-		16F864B31F86FE0E009E9F3A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864901F86FE0E009E9F3A /* HomeViewController.swift */; };
-		16F864B41F86FE0E009E9F3A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F864911F86FE0E009E9F3A /* HomeViewController.xib */; };
-		16F864B51F86FE0E009E9F3A /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864921F86FE0E009E9F3A /* MessagesViewController.swift */; };
-		16F864B61F86FE0E009E9F3A /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F864931F86FE0E009E9F3A /* MessagesViewController.xib */; };
 		16F864B71F86FE0E009E9F3A /* MessagesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864951F86FE0E009E9F3A /* MessagesDataModel.swift */; };
 		16F864B81F86FE0E009E9F3A /* BaseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864971F86FE0E009E9F3A /* BaseAPIManager.swift */; };
 		16F864B91F86FE0E009E9F3A /* MessagesAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864981F86FE0E009E9F3A /* MessagesAPIManager.swift */; };
@@ -62,8 +67,6 @@
 		16F864D41F875CC1009E9F3A /* PhotosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864D31F875CC1009E9F3A /* PhotosManager.swift */; };
 		16F864D61F875E5E009E9F3A /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864D51F875E5E009E9F3A /* ImageCache.swift */; };
 		16F864D81F8781E7009E9F3A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864D71F8781E7009E9F3A /* Extensions.swift */; };
-		16F864DB1F8784C8009E9F3A /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F864D91F8784C8009E9F3A /* FullScreenImageViewController.swift */; };
-		16F864DC1F8784C8009E9F3A /* FullScreenImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F864DA1F8784C8009E9F3A /* FullScreenImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +87,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16B22E031F88932D00EEDAED /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		16B22E041F88932D00EEDAED /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
 		16B22E071F88956D00EEDAED /* EmergencyContactCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyContactCollectionViewCell.swift; sourceTree = "<group>"; };
 		16B22E081F88956D00EEDAED /* EmergencyContactCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmergencyContactCollectionViewCell.xib; sourceTree = "<group>"; };
 		16B22E0C1F889F4B00EEDAED /* ImagePopOutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePopOutView.swift; sourceTree = "<group>"; };
@@ -96,6 +97,22 @@
 		16B22E161F88CEB100EEDAED /* ContactsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsHeaderView.xib; sourceTree = "<group>"; };
 		16B22E1A1F88D36C00EEDAED /* EmergencyContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyContactTableViewCell.swift; sourceTree = "<group>"; };
 		16B22E1B1F88D36C00EEDAED /* EmergencyContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmergencyContactTableViewCell.xib; sourceTree = "<group>"; };
+		16B22E231F88F76F00EEDAED /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		16B22E251F88F76F00EEDAED /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		16B22E261F88F76F00EEDAED /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		16B22E271F88F76F00EEDAED /* EmergencyContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyContactViewController.swift; sourceTree = "<group>"; };
+		16B22E281F88F76F00EEDAED /* EmergencyContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmergencyContactViewController.xib; sourceTree = "<group>"; };
+		16B22E2A1F88F76F00EEDAED /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
+		16B22E2B1F88F76F00EEDAED /* FullScreenImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FullScreenImageViewController.xib; sourceTree = "<group>"; };
+		16B22E2C1F88F76F00EEDAED /* GridImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridImagesViewController.swift; sourceTree = "<group>"; };
+		16B22E2D1F88F76F00EEDAED /* GridImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridImagesViewController.xib; sourceTree = "<group>"; };
+		16B22E2F1F88F76F00EEDAED /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		16B22E301F88F76F00EEDAED /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		16B22E321F88F76F00EEDAED /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		16B22E331F88F76F00EEDAED /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
+		16B22E351F88F76F00EEDAED /* SlidingMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingMenuViewController.swift; sourceTree = "<group>"; };
+		16B22E361F88F76F00EEDAED /* SlidingMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidingMenuViewController.xib; sourceTree = "<group>"; };
+		16B22E461F88F92800EEDAED /* EmergencyContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyContactsManager.swift; sourceTree = "<group>"; };
 		16F864401F86139D009E9F3A /* InterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F864431F86139D009E9F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16F8644A1F86139D009E9F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,15 +126,6 @@
 		16F864651F86139D009E9F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F864871F86FE0E009E9F3A /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
 		16F864881F86FE0E009E9F3A /* MessagesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesTableViewCell.xib; sourceTree = "<group>"; };
-		16F8648A1F86FE0E009E9F3A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		16F8648B1F86FE0E009E9F3A /* SlidingMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingMenuViewController.swift; sourceTree = "<group>"; };
-		16F8648C1F86FE0E009E9F3A /* SlidingMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidingMenuViewController.xib; sourceTree = "<group>"; };
-		16F8648E1F86FE0E009E9F3A /* GridImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridImagesViewController.swift; sourceTree = "<group>"; };
-		16F8648F1F86FE0E009E9F3A /* GridImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridImagesViewController.xib; sourceTree = "<group>"; };
-		16F864901F86FE0E009E9F3A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		16F864911F86FE0E009E9F3A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		16F864921F86FE0E009E9F3A /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		16F864931F86FE0E009E9F3A /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
 		16F864951F86FE0E009E9F3A /* MessagesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesDataModel.swift; sourceTree = "<group>"; };
 		16F864971F86FE0E009E9F3A /* BaseAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPIManager.swift; sourceTree = "<group>"; };
 		16F864981F86FE0E009E9F3A /* MessagesAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesAPIManager.swift; sourceTree = "<group>"; };
@@ -145,8 +153,6 @@
 		16F864D31F875CC1009E9F3A /* PhotosManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosManager.swift; sourceTree = "<group>"; };
 		16F864D51F875E5E009E9F3A /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		16F864D71F8781E7009E9F3A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		16F864D91F8784C8009E9F3A /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
-		16F864DA1F8784C8009E9F3A /* FullScreenImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FullScreenImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,63 @@
 				16B22E161F88CEB100EEDAED /* ContactsHeaderView.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		16B22E221F88F76F00EEDAED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				16B22E231F88F76F00EEDAED /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		16B22E241F88F76F00EEDAED /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				16B22E251F88F76F00EEDAED /* ContactsViewController.swift */,
+				16B22E261F88F76F00EEDAED /* ContactsViewController.xib */,
+				16B22E271F88F76F00EEDAED /* EmergencyContactViewController.swift */,
+				16B22E281F88F76F00EEDAED /* EmergencyContactViewController.xib */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		16B22E291F88F76F00EEDAED /* GridImage */ = {
+			isa = PBXGroup;
+			children = (
+				16B22E2A1F88F76F00EEDAED /* FullScreenImageViewController.swift */,
+				16B22E2B1F88F76F00EEDAED /* FullScreenImageViewController.xib */,
+				16B22E2C1F88F76F00EEDAED /* GridImagesViewController.swift */,
+				16B22E2D1F88F76F00EEDAED /* GridImagesViewController.xib */,
+			);
+			path = GridImage;
+			sourceTree = "<group>";
+		};
+		16B22E2E1F88F76F00EEDAED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				16B22E2F1F88F76F00EEDAED /* HomeViewController.swift */,
+				16B22E301F88F76F00EEDAED /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		16B22E311F88F76F00EEDAED /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				16B22E321F88F76F00EEDAED /* MessagesViewController.swift */,
+				16B22E331F88F76F00EEDAED /* MessagesViewController.xib */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		16B22E341F88F76F00EEDAED /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				16B22E351F88F76F00EEDAED /* SlidingMenuViewController.swift */,
+				16B22E361F88F76F00EEDAED /* SlidingMenuViewController.xib */,
+			);
+			path = SlideMenu;
 			sourceTree = "<group>";
 		};
 		16F864371F86139D009E9F3A = {
@@ -241,7 +304,6 @@
 			children = (
 				16B22E0B1F889BE600EEDAED /* Views */,
 				16F864861F86FE0E009E9F3A /* Cells */,
-				16F864891F86FE0E009E9F3A /* Common */,
 				16F8648D1F86FE0E009E9F3A /* Controllers */,
 				16F864941F86FE0E009E9F3A /* DataModels */,
 				16F864961F86FE0E009E9F3A /* Network */,
@@ -262,6 +324,7 @@
 				16B22E111F88C2D600EEDAED /* ContactTableViewCell.xib */,
 				16B22E1A1F88D36C00EEDAED /* EmergencyContactTableViewCell.swift */,
 				16B22E1B1F88D36C00EEDAED /* EmergencyContactTableViewCell.xib */,
+				16F864891F86FE0E009E9F3A /* Common */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -269,28 +332,23 @@
 		16F864891F86FE0E009E9F3A /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				16F8648A1F86FE0E009E9F3A /* BaseViewController.swift */,
-				16F8648B1F86FE0E009E9F3A /* SlidingMenuViewController.swift */,
-				16F8648C1F86FE0E009E9F3A /* SlidingMenuViewController.xib */,
 				16F864D31F875CC1009E9F3A /* PhotosManager.swift */,
 				16F864D71F8781E7009E9F3A /* Extensions.swift */,
+				16B22E461F88F92800EEDAED /* EmergencyContactsManager.swift */,
 			);
-			path = Common;
+			name = Common;
+			path = ../Common;
 			sourceTree = "<group>";
 		};
 		16F8648D1F86FE0E009E9F3A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				16F8648E1F86FE0E009E9F3A /* GridImagesViewController.swift */,
-				16F8648F1F86FE0E009E9F3A /* GridImagesViewController.xib */,
-				16F864901F86FE0E009E9F3A /* HomeViewController.swift */,
-				16F864911F86FE0E009E9F3A /* HomeViewController.xib */,
-				16F864921F86FE0E009E9F3A /* MessagesViewController.swift */,
-				16F864931F86FE0E009E9F3A /* MessagesViewController.xib */,
-				16F864D91F8784C8009E9F3A /* FullScreenImageViewController.swift */,
-				16F864DA1F8784C8009E9F3A /* FullScreenImageViewController.xib */,
-				16B22E031F88932D00EEDAED /* ContactsViewController.swift */,
-				16B22E041F88932D00EEDAED /* ContactsViewController.xib */,
+				16B22E221F88F76F00EEDAED /* Base */,
+				16B22E241F88F76F00EEDAED /* Contacts */,
+				16B22E291F88F76F00EEDAED /* GridImage */,
+				16B22E2E1F88F76F00EEDAED /* Home */,
+				16B22E311F88F76F00EEDAED /* Messages */,
+				16B22E341F88F76F00EEDAED /* SlideMenu */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -454,14 +512,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B22E3B1F88F76F00EEDAED /* EmergencyContactViewController.xib in Resources */,
 				16B22E1D1F88D36C00EEDAED /* EmergencyContactTableViewCell.xib in Resources */,
+				16B22E451F88F76F00EEDAED /* SlidingMenuViewController.xib in Resources */,
 				16F864C51F86FE0E009E9F3A /* Proxima Nova ScOsf Bold.otf in Resources */,
 				16B22E0A1F88956D00EEDAED /* EmergencyContactCollectionViewCell.xib in Resources */,
 				16F864C61F86FE0E009E9F3A /* Proxima Nova ScOsf Light.otf in Resources */,
-				16F864B01F86FE0E009E9F3A /* SlidingMenuViewController.xib in Resources */,
+				16B22E431F88F76F00EEDAED /* MessagesViewController.xib in Resources */,
 				16B22E171F88CEB100EEDAED /* ContactsHeaderView.xib in Resources */,
 				16F864C91F86FE0E009E9F3A /* Proxima Nova Thin.otf in Resources */,
-				16B22E061F88932D00EEDAED /* ContactsViewController.xib in Resources */,
 				16F864C21F86FE0E009E9F3A /* Proxima Nova Bold.otf in Resources */,
 				16F8644E1F86139D009E9F3A /* LaunchScreen.storyboard in Resources */,
 				16F8644B1F86139D009E9F3A /* Assets.xcassets in Resources */,
@@ -469,20 +528,20 @@
 				16F864C31F86FE0E009E9F3A /* Proxima Nova Condensed Thin.otf in Resources */,
 				16F864BA1F86FE0E009E9F3A /* Proxima Nova Alt Black.otf in Resources */,
 				16F864C81F86FE0E009E9F3A /* Proxima Nova ScOsf Thin.otf in Resources */,
+				16B22E411F88F76F00EEDAED /* HomeViewController.xib in Resources */,
 				16F864BC1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Black.otf in Resources */,
 				16F864C01F86FE0E009E9F3A /* Proxima Nova Alt Regular.otf in Resources */,
 				16F864C71F86FE0E009E9F3A /* Proxima Nova ScOsf Regular.otf in Resources */,
 				16F864BE1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Thin.otf in Resources */,
-				16F864B61F86FE0E009E9F3A /* MessagesViewController.xib in Resources */,
 				16B22E131F88C2D600EEDAED /* ContactTableViewCell.xib in Resources */,
 				16F864AD1F86FE0E009E9F3A /* MessagesTableViewCell.xib in Resources */,
 				16B22E0F1F889F6100EEDAED /* ImagePopOutView.xib in Resources */,
+				16B22E3F1F88F76F00EEDAED /* GridImagesViewController.xib in Resources */,
+				16B22E391F88F76F00EEDAED /* ContactsViewController.xib in Resources */,
+				16B22E3D1F88F76F00EEDAED /* FullScreenImageViewController.xib in Resources */,
 				16F864CA1F86FE0E009E9F3A /* ProximaNova-Regular.otf in Resources */,
-				16F864B21F86FE0E009E9F3A /* GridImagesViewController.xib in Resources */,
-				16F864DC1F8784C8009E9F3A /* FullScreenImageViewController.xib in Resources */,
 				16F864D21F874916009E9F3A /* GridimageCollectionViewCell.xib in Resources */,
 				16F864BD1F86FE0E009E9F3A /* Proxima Nova Alt Condensed Bold.otf in Resources */,
-				16F864B41F86FE0E009E9F3A /* HomeViewController.xib in Resources */,
 				16F864BB1F86FE0E009E9F3A /* Proxima Nova Alt Bold.otf in Resources */,
 				16F864C41F86FE0E009E9F3A /* Proxima Nova Extrabold.otf in Resources */,
 				16F864C11F86FE0E009E9F3A /* Proxima Nova Black.otf in Resources */,
@@ -511,27 +570,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F864D61F875E5E009E9F3A /* ImageCache.swift in Sources */,
-				16F864AF1F86FE0E009E9F3A /* SlidingMenuViewController.swift in Sources */,
-				16F864B51F86FE0E009E9F3A /* MessagesViewController.swift in Sources */,
-				16F864B11F86FE0E009E9F3A /* GridImagesViewController.swift in Sources */,
 				16F864CE1F8744B3009E9F3A /* GridImagesDataModel.swift in Sources */,
-				16B22E051F88932D00EEDAED /* ContactsViewController.swift in Sources */,
 				16B22E151F88CEA100EEDAED /* ContactsHeaderView.swift in Sources */,
+				16B22E371F88F76F00EEDAED /* BaseViewController.swift in Sources */,
 				16B22E091F88956D00EEDAED /* EmergencyContactCollectionViewCell.swift in Sources */,
-				16F864DB1F8784C8009E9F3A /* FullScreenImageViewController.swift in Sources */,
 				16F864441F86139D009E9F3A /* AppDelegate.swift in Sources */,
 				16F864AC1F86FE0E009E9F3A /* MessagesTableViewCell.swift in Sources */,
 				16F864D41F875CC1009E9F3A /* PhotosManager.swift in Sources */,
+				16B22E381F88F76F00EEDAED /* ContactsViewController.swift in Sources */,
 				16F864B71F86FE0E009E9F3A /* MessagesDataModel.swift in Sources */,
+				16B22E401F88F76F00EEDAED /* HomeViewController.swift in Sources */,
+				16B22E471F88F92800EEDAED /* EmergencyContactsManager.swift in Sources */,
+				16B22E3E1F88F76F00EEDAED /* GridImagesViewController.swift in Sources */,
 				16B22E1C1F88D36C00EEDAED /* EmergencyContactTableViewCell.swift in Sources */,
-				16F864AE1F86FE0E009E9F3A /* BaseViewController.swift in Sources */,
+				16B22E441F88F76F00EEDAED /* SlidingMenuViewController.swift in Sources */,
+				16B22E421F88F76F00EEDAED /* MessagesViewController.swift in Sources */,
 				16F864B81F86FE0E009E9F3A /* BaseAPIManager.swift in Sources */,
 				16F864D81F8781E7009E9F3A /* Extensions.swift in Sources */,
+				16B22E3A1F88F76F00EEDAED /* EmergencyContactViewController.swift in Sources */,
 				16F864B91F86FE0E009E9F3A /* MessagesAPIManager.swift in Sources */,
 				16F864D11F874916009E9F3A /* GridimageCollectionViewCell.swift in Sources */,
 				16B22E0D1F889F4B00EEDAED /* ImagePopOutView.swift in Sources */,
+				16B22E3C1F88F76F00EEDAED /* FullScreenImageViewController.swift in Sources */,
 				16B22E121F88C2D600EEDAED /* ContactTableViewCell.swift in Sources */,
-				16F864B31F86FE0E009E9F3A /* HomeViewController.swift in Sources */,
 				16F864CC1F874417009E9F3A /* GridImagesAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
